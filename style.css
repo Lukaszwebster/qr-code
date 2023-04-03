@@ -1,0 +1,43 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(212, 45%, 89%);
+	height: 100vh;
+}
+.mainBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 14px;
+	margin: 20px;
+	overflow: hidden;
+	max-width: 300px;
+}
+.QRpicture {
+	padding: 18px;
+	border-radius: 30px;
+}
+
+h1 {
+	margin: 8px 40px 0px 40px;
+	font-size: 22px;
+	text-align: center;
+	font-family: Outfit;
+	font-weight: 700;
+}
+p {
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 40px 40px 40px;
+	color: hsl(220, 15%, 55%);
+	font-family: outfit;
+	font-weight: 400;
+}
+/* @media (min-width: 1000px) {
+	.mainBox {
+		max-width: 24vw;
+	}
+} */
